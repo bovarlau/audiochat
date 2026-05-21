@@ -16,3 +16,9 @@ debug_asr.wav
 
 # 本地 agent 配置（按需，不想传就留着）
 .claude/
+
+#
+CLAUDE.md
+
+#
+.gitignore

@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 LLM 和 TTS 都走 MiniMax 的 Anthropic 兼容端点（`api.minimaxi.com`），ASR 用本地 FunASR `paraformer-zh` + `ct-punc`。
 
-**完整架构、协议、设计回溯、延迟预算见 [DESIGN.md](DESIGN.md)**。本文件只列容易踩坑的事，避免改坏。
+**完整架构、协议、设计回溯、延迟预算见 [README.md](README.md)**。本文件只列容易踩坑的事，避免改坏。
 
 ## 项目状态与有意不做的事
 
