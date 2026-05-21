@@ -1,0 +1,21 @@
+anthropic
+requests
+python-dotenv
+sounddevice
+numpy
+
+# Web stack
+fastapi
+uvicorn[standard]
+httpx
+
+# ASR
+funasr
+
+# NOTE: PyTorch + torchaudio (CPU build) are required by funasr and must be
+# installed from the official CPU wheel index BEFORE this file:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+#
+# Python 3.12 recommended (3.13 lacks a prebuilt `editdistance` wheel on
+# Windows and source-builds fail under current MSVC).
