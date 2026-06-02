@@ -95,3 +95,20 @@ chatbot/
 ├── requirements.txt  # Python 依赖
 └── .env              # API 凭据（需自行创建，不入仓库）
 ```
+## 运行步骤一
+### 1. 激活环境（每个新终端都要做一次）
+conda activate D:\tech\ai\github\chatbot\.venv
+
+### 2a. CLI 版
+python chatbot.py
+
+### 2b. Web 版
+python -m uvicorn web_server:app --host 127.0.0.1 --port 8000
+
+### 2c. Web 版 + ASR 调试 dump
+$env:DEBUG_ASR=1
+python -m uvicorn web_server:app --host 127.0.0.1 --port 8000
+
+## 运行步骤二
+### .venv\python.exe chatbot.py
+### .venv\python.exe -m uvicorn web_server:app --host 127.0.0.1 --port 8000
